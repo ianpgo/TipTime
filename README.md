@@ -30,7 +30,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Compile error for iPhone swift simulator so I was uneable to emulate my application, I'll get this fixed soon!
 
 ## License
 
