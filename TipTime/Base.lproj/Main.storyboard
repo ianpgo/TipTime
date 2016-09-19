@@ -54,11 +54,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="9Ff-KS-aIb">
-                                <frame key="frameInset" minX="262" minY="102" width="97" height="30"/>
+                                <frame key="frameInset" minX="194" minY="102" width="165" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="51F-U4-25L">
                                 <frame key="frameInset" minX="16" minY="381" width="343" height="29"/>
@@ -79,7 +79,11 @@
                     <navigationItem key="navigationItem" title="Tip Calculator" id="0G2-vU-OOL"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="era-vp-NBk"/>
+                <tapGestureRecognizer id="era-vp-NBk">
+                    <connections>
+                        <action selector="onTap:" destination="BYZ-38-t0r" id="r1Q-aU-eZ7"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="672.5" y="152.5"/>
         </scene>
