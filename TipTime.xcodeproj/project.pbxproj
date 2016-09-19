@@ -430,6 +430,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ian.TipTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -507,6 +508,7 @@
 				BADB80311D8F4F6F00386B95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BADB80321D8F4F6F00386B95 /* Build configuration list for PBXNativeTarget "TipTimeTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +517,7 @@
 				BADB80341D8F4F6F00386B95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BADB80351D8F4F6F00386B95 /* Build configuration list for PBXNativeTarget "TipTimeUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +526,7 @@
 				BADB80371D8F4F6F00386B95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
